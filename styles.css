@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.fashion-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+
+.fashion-item:hover {
+  transform: scale(1.05);
+}
+
+.fashion-item img {
+  width: 100%;
+  height: auto;
+}
+
+.fashion-item h2 {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  margin-top: 2rem;
+}
+
+.fashion-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
+}
+
+header a {
+  color: #f0c040;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
